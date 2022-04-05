@@ -1,0 +1,34 @@
+header {
+    grid-area: header;
+    color: #dfdfdf;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f8fbfc;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header nav {
+    justify-self: start;
+    list-style-type: none;
+}
+
+header nav li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+header button {
+    justify-self: end;
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.special {
+    font-size: 40px;
+}

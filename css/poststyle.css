@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Italianno&family=Josefin+Sans:wght@300&family=Karla:wght@200&family=Lobster&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(219, 215, 215);
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: middle;
+    font-weight: bold;
+}
+
+a:link {
+    color: rgb(232, 240, 232);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(49, 112, 78);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(128, 120, 85);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgba(255, 255, 0, 0.534);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme {
+    display: inline-flex;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    padding-bottom: none;
+    margin-top: 10px;
+}
+
+.aboutme img {
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#metext {
+    width: 1fr;
+    text-align: justify;
+    font-size: large;
+    line-height: 1.4;
+    padding-left: 60px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer h6 {
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .main {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+}

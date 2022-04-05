@@ -1,0 +1,88 @@
+@import url("../css/poststyle.css");
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+header {
+    padding: 20px 0;
+    margin: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+header nav li {
+    margin-right: 15px;
+}
+
+header button {
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.special {
+    font-size: 30px;
+}
+
+.wrapper {
+    display: flex;
+    text-align: justify;
+}
+
+.main {
+    flex: 3;
+}
+
+.main h1 {
+    font-size: 32px;
+    margin: 20px;
+    color: rgb(211, 209, 209);
+}
+
+.main h4 {
+    font-size: 16px;
+    margin: 20px;
+    color: rgb(202, 199, 199);
+}
+
+.main p {
+    font-size: small;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+.main img {
+    width: 100%;
+    padding: 20px;
+}
+.sidebar {
+    padding: 20px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.sidebar ul > li {
+    padding: 0.25rem 0;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Italianno&family=Josefin+Sans:wght@300&family=Karla:wght@200&family=Lobster&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(219, 215, 215);
+    background-image: url("../images/background.jpg");
+    background-attachment:fixed;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:bold;
+    align-content: center;
+   
+    
+     
+}
+
+a:link {
+    color: rgb(232, 240, 232);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(49, 112, 78);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(128, 120, 85);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgba(255, 255, 0, 0.534);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 30px 0;
+    margin: 60px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+header nav li {
+    margin-right: 15px;
+}
+
+header button {
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;  
+}
+
+.special {
+     font-size: 20px;
+        
+}
+
+
+
+footer {
+    
+     text-align: center;
+     padding: 30px 0;
+     margin: 60px;
+     border-top: 1px solid rgb(201, 199, 199)
+            
+}
+        
+footer h6 {
+     color: white;
+     font-size: 12px;
+     padding: 10px;
+}
+        
+        
+            
+    

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(219, 215, 215);
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+a:link {
+    color: rgb(232, 240, 232);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(49, 112, 78);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(128, 120, 85);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgba(255, 255, 0, 0.534);
+    background-color: transparent;
+    text-decoration: underline;
+}
